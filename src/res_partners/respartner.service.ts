@@ -31,7 +31,6 @@ export class ResPartnerService {
                         rejects(err);
                         return console.log(err);
                     }
-                    console.log('Result: ', value);
                     resolve(value)
                 });
             })
@@ -64,7 +63,6 @@ export class ResPartnerService {
                         rejects(err);
                         return console.log(err);
                     }
-                    console.log('Result: ', value);
                     resolve(value)
                 });
             })

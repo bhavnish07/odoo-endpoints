@@ -12,8 +12,6 @@ export class ResPartnerController {
 
     @Post("/update")
     updatePartners(@Body('id') resPartnerId: number, @Body('values') values) {
-        console.log(resPartnerId);
-        console.log(values);
         return this.resPartnerService.updatePartners(resPartnerId, values);
     }
 
